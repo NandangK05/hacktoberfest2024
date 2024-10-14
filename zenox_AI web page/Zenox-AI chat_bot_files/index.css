@@ -1,0 +1,183 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.container{
+    background-color: rgb(8, 30, 8);
+    display:flex;
+    flex-wrap: wrap;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    height: 100svh;
+}
+.zenoxtext h1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 250px;
+    color: rgb(9, 210, 9);
+}
+.newchat{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+
+}
+.newchat button{
+    height: 40px;
+    width:150px;
+    background-color: rgb(9, 210, 9);
+    border-radius: 8%;
+    color: rgb(34, 33, 33);
+}
+.recent h6{
+    font-size: 20px;
+    color: aliceblue;
+    height: 35px;
+}
+.recent{
+    
+    width: 180px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;    
+}
+.p1{
+    color: aliceblue;
+    font-size: 15px;
+}
+.gern{
+    
+    width: 180px;
+    height: 135px;
+    display: flex;
+    flex-direction: column; 
+}
+.gern h5{
+    font-size: 20px;
+    color: aliceblue;
+    height: 35px;
+}
+.cilco{
+    height: 220px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    color: antiquewhite;
+}
+.clilo{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.loci img{
+    height: 45px;
+    width: 45px;
+    border-radius:50%;
+    margin: 5px;
+}
+.leftbut{
+    display: flex;    
+}
+.leftbut button{
+    background-color: rgb(16, 182, 16);
+    height: 35px;
+    width: 90px;
+    border-radius: 10%;
+}
+.center{
+    background-color: aliceblue;
+    width: 60%;
+}
+.ncht{
+    color: rgb(15, 194, 68);
+}
+.newcht{
+    display: flex;
+    height: 85px;
+    align-items: center;
+    background: linear-gradient(to left,rgb(43, 41, 41), rgb(15, 168, 15) , rgb(43, 41, 41));
+}
+.icon img{
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    margin: 10px;
+}
+.centerc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90svh;
+    align-items: center;
+    background-color: rgb(11, 1, 1);
+}
+.zenox{
+    display: flex;
+    height: 85px;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+.centerbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    gap: 5px;
+}
+.examples{
+    width: 200px;
+    
+    background-color: black;
+    border-radius: 20px;
+}
+.examples h1{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    font-size: 22px;
+    color: aliceblue;
+}
+.text{
+    padding: 4px;
+    color: aliceblue;
+    font-size: 12px;
+    width: 185px;
+    height: 50px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right,black,grey);
+}
+.search{
+    display: flex;
+    width: 100%;
+    
+}
+.searchbox{
+    display: flex;
+    width: 100%;    
+}
+.searchbox input{
+    height: 46px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    font-size: 15px;
+    text-align: center;
+}
